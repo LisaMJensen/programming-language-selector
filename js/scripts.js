@@ -13,17 +13,17 @@ $(document).ready(function() {
        var sum = (question1 + question2 + question3 + question4 + question5)
 
        if (sum <= 8) { console.log("here");
-         $("#javascript").show();
+         $("#javascript").fadeIn(800);
          $("#cSharp").hide();
          $("#react").hide();
        } else if (sum <= 12) {
          $("#javascript").hide();
-         $("#cSharp").show();
+         $("#cSharp").fadeIn(800);
          $("#react").hide();
        } else {
          $("#javascript").hide();
          $("#cSharp").hide();
-         $("#react").show();
+         $("#react").fadeIn(800);
        }
      }
 

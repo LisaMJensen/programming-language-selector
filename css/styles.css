@@ -1,5 +1,6 @@
 #javascript, #cSharp, #react {
   display: none;
+  margin: 10px;
 }
 
 .jumbotron {
@@ -13,3 +14,41 @@
   margin: 20px;
   padding-top: 20px;
 }
+
+#header {
+  border: 4px solid black;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #80bfff;
+  margin: 10px;
+  padding: 30px;
+}
+
+#bannerimg {
+  height: 100px;
+  width: auto;
+  float: right;
+}
+
+#javascriptImg {
+  height: 100px;
+  width: auto;
+}
+
+#cSharpImg {
+  height: 100px;
+  width: auto;
+}
+
+#reactImg {
+  height: 100px;
+  width: auto;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+}
+
+body {
+  background-color: #cce6ff;
