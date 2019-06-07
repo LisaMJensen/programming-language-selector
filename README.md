@@ -6,24 +6,20 @@
 
 ## Description
 
-_This web application is intended to aid aspiring developers in their pursuit of a programming langauge to study that best suits them. It utilizes a survey with multiple personality type questions to determine what programming language most closely aligns with them._
+_This web application is intended to aid aspiring developers in their pursuit of a programming language to study that best suits them. It utilizes a survey with multiple personality type questions to determine what programming language most closely aligns with them._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
+* _This web application can be viewed at the following gh-pages link: https://LisaMJensen.github.io/programming-language-selector ._
+* _Alternatively, you can clone the following github repository to view the code and open the html file in a web browser: https://github.com/LisaMJensen/programming-language-selector ._
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no known bugs at this time._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Please reach out to Lisa Jensen at leese_38@yahoo.com with any concerns or questions._
 
 ## Technologies Used
 

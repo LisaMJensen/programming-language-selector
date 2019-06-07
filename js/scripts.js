@@ -7,7 +7,6 @@ $(document).ready(function() {
      var question5 = parseInt($("#question5 option:selected").val());
 
      if (!question1 || !question2 || !question3 || !question4 || !question5) {
-       //alert("Please select an answer for all questions.");
        $(".modal").show();
      } else {
 
@@ -34,4 +33,5 @@ $(document).ready(function() {
  $("#buttonClose").click(function () {
    $(".modal").hide();
   });
+  
 });
