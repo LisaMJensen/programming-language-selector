@@ -9,9 +9,6 @@ $(document).ready(function() {
      if (!question1 || !question2 || !question3 || !question4 || !question5) {
        //alert("Please select an answer for all questions.");
        $(".modal").show();
-        //if $("#buttonClose").click(function(event) {
-         //$(".modal").hide();
-       //}
      } else {
 
        var sum = (question1 + question2 + question3 + question4 + question5)
@@ -31,9 +28,10 @@ $(document).ready(function() {
        }
      }
 
-
-
-
    event.preventDefault();
  });
+
+ $("#buttonClose").click(function () {
+   $(".modal").hide();
+  });
 });

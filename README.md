@@ -1,12 +1,12 @@
-# _{Application Name}_
+# _Programming Language Suggester_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A web application to help aspiring developers choose what language to learn. June 7th, 2019_
 
-#### By _**{List of contributors}**_
+#### By _**Lisa Jensen**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This web application is intended to aid aspiring developers in their pursuit of a programming langauge to study that best suits them. It utilizes a survey with multiple personality type questions to determine what programming language most closely aligns with them._
 
 ## Setup/Installation Requirements
 
@@ -16,7 +16,6 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _easy-to-understand_
 * _format_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
@@ -28,10 +27,10 @@ _{Let people know what to do if they run into any issues or have questions, idea
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_This web application utilizes JavaScript functions to receive inputs from forms and use their values to give the user a result based on those values._
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*This web application is licensed under the MIT license.*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2019 **_Lisa Jensen_**
