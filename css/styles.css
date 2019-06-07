@@ -53,3 +53,7 @@ form {
 
 body {
   background-color: #cce6ff;
+
+.modal {
+  display: none;
+}

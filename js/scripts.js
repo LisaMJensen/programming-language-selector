@@ -7,12 +7,16 @@ $(document).ready(function() {
      var question5 = parseInt($("#question5 option:selected").val());
 
      if (!question1 || !question2 || !question3 || !question4 || !question5) {
-       alert("Please select an answer for all questions.")
+       //alert("Please select an answer for all questions.");
+       $(".modal").show();
+        //if $("#buttonClose").click(function(event) {
+         //$(".modal").hide();
+       //}
      } else {
 
        var sum = (question1 + question2 + question3 + question4 + question5)
 
-       if (sum <= 8) { console.log("here");
+       if (sum <= 7) { console.log("here");
          $("#javascript").fadeIn(800);
          $("#cSharp").hide();
          $("#react").hide();
