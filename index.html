@@ -10,17 +10,60 @@
     <div class="container">
       <form id="coderSurvey">
         <div class="form-group">
-
+          <label>What is your favorite Bob Ross quote?</label>
+          <select class="form-control" id="question1">
+            <option hidden>Please select an answer</option>
+            <option>“We don't make mistakes, just happy little accidents.”</option>
+            <option>“Talent is a pursued interest. Anything that you're willing to practice, you can do.” </option>
+            <option>“There's nothing wrong with having a tree as a friend.”</option>
+          </select>
         </div>
+        <div class="form-group">
+          <label>What is your favorite animal?</label>
+          <select class="form-control" id="question2">
+            <option hidden>Please select an answer</option>
+            <option value="">Possum</option>
+            <option value>Snapping Turtle</option>
+            <option>Tardigrade</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>What is your favorite type of flower?</label>
+          <select class="form-control" id="question3">
+            <option hidden>Please select an answer</option>
+            <option>Forget-Me-Not</option>
+            <option>Rose</option>
+            <option>Skunk Flower</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>How do you prefer your coffee?</label>
+          <select class="form-control" id="question4">
+            <option hidden>Please select an answer</option>
+            <option>Hot</option>
+            <option>Iced</option>
+            <option>Loaded with Sugar and Caffeine</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>What is your favorite sport?</label>
+          <select class="form-control" id="question5">
+            <option hidden>Please select an answer</option>
+            <option>Soccer</option>
+            <option>Football</option>
+            <option>eSports</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-lg btn-info btn-outline-dark">Submit</button>
       </form>
 
     </div>
     <div class="container">
       <div id="javascript">
-        <div class="jumbotron" id="canVoteTitle">
+        <div class="jumbotron" id="javascriptTitle">
          <h2>Javascript</h2>
        </div>
-       <div class="card" id="cardNoVote">
+       <div class="card" id="cardJavascript">
          <div class="card-body">
            <h5 class="card-title">You got Javascript</h5>
            <p class="card-text">Here are some reasons that Javascript is the best language for you.</p>
@@ -28,10 +71,10 @@
           </div>
       </div>
       <div id="cSharp">
-        <div class="jumbotron" id="canVoteTitle">
+        <div class="jumbotron" id="cSharpTitle">
          <h2>C#</h2>
         </div>
-        <div class="card" id="cardNoVote">
+        <div class="card" id="cardCSharp">
          <div class="card-body">
            <h5 class="card-title">You got C#!</h5>
            <p class="card-text">Here are some reasons that C# is the best language for you.</p>
@@ -39,10 +82,10 @@
         </div>
       </div>
       <div id="react">
-        <div class="jumbotron" id="canVoteTitle">
+        <div class="jumbotron" id="reactTitle">
          <h2>React</h2>
        </div>
-       <div class="card" id="cardNoVote">
+       <div class="card" id="cardReact">
         <div class="card-body">
           <h5 class="card-title">You got React!</h5>
           <p class="card-text">Here are some reasons that React is the best language for you.</p>
