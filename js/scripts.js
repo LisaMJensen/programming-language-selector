@@ -1,5 +1,5 @@
 $(document).ready(function() {
- $("#coderSurvey").submit(function(event) {
+ $("form#coderSurvey").submit(function(event) {
      var question1 = parseInt($("#question1 option:selected").val());
      var question2 = parseInt($("#question2 option:selected").val());
      var question3 = parseInt($("#question3 option:selected").val());
@@ -14,7 +14,10 @@ $(document).ready(function() {
          $("#javascript").show();
          $("#cSharp").hide();
          $("#react").hide();
-       }
+       } else if (question1 === "2" && question2 ==="2" && question3 ==="2" && question4 ==="2" && question5 ==="2") {
+         $("#javascript").hide();
+         $("#cSharp").show();
+         $("#react").hide();
      }
 
 
@@ -23,5 +26,5 @@ $(document).ready(function() {
 
 
    event.preventDefault();
- });
+ })
 });
