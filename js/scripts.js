@@ -5,7 +5,7 @@ $(document).ready(function() {
      var question3 = parseInt($("#question3 option:selected").val());
      var question4 = parseInt($("#question4 option:selected").val());
      var question5 = parseInt($("#question5 option:selected").val());
-
+     
      if (!question1 || !question2 || !question3 || !question4 || !question5) {
        alert("Please select an answer for all questions.")
      } else {
