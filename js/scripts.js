@@ -18,13 +18,17 @@ $(document).ready(function() {
          $("#javascript").hide();
          $("#cSharp").show();
          $("#react").hide();
+       } else if (question1 === "3" && question2 ==="3" && question3 ==="3" && question4 ==="3" && question5 ==="3") {
+         $("#javascript").hide();
+         $("#cSharp").show();
+         $("#react").hide();
+       }
      }
 
 
 
 
 
-
    event.preventDefault();
- })
+ });
 });
